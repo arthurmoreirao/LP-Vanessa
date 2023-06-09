@@ -1,0 +1,62 @@
+.main-bg {
+    background-image: url('../img/blur.png');
+     background-size: cover;
+     background-position: center center;
+     color: var(--white-color);
+  }
+ 
+  .white-bg {
+    background: var(--white-color);
+    color: var(--primary-color);
+    
+  }
+ 
+  .main-content {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding:10rem var(--gap);
+  }
+ 
+  .section {
+    min-height: 100vh;
+  }
+  .menu-spacing {
+    height: 65px;
+  }
+
+  .container-parabens {
+    background: rgba(91, 185, 235, 0.85);
+    border-radius: 3%;
+  }
+
+  .container-qualidades{
+    background: rgba(91, 185, 235, 0.85);
+    border-radius: 3%;
+    padding: 40px;
+  } 
+
+  .grid-main-heading{
+    padding: 35px;
+  }
+
+  .titulo-parabens{
+    text-align: center;
+    font-size: 4.5rem;
+  }
+
+
+  .intro{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .intro-text-content{
+    background: blue;
+  }
+  body .full-width {
+    width: 100%;
+    flex: 1 1 100%;
+  }
+  .p-footer{
+    margin-bottom: 3rem;
+  }
